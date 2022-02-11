@@ -1,5 +1,5 @@
 body {
-    background: black;
+    background: #3c3c3c;
     
 
   }
@@ -11,31 +11,33 @@ body {
   }
 
   header {
-    background-color: #666;
+    background-color: #49512a;
     padding: 30px;
     text-align: center;
     font-size: 35px;
-    color: white;
+    color:#ccc;
   }
 
-  #nav {
+  #nav { /* the nav box/container */
     float: left;
     width: 30%;
-    height: 300px; /* only for demonstration, should be removed */
     background: #ccc;
+    height: 300px;
     padding: 20px;
+    font-size: 35px;
   }
 
-  ul {
+  #nav ul {  /* the stuff inside the nav */
         list-style-type: none;
         margin: 0;
         padding: 0;
       
   }
 
-  ul li {
-      font-size: 10px
-      text-align: center
+  ul a {  /* nav links */
+      color:darkslategray;
+      line-height: 1.8;
+      
 
 
   }
@@ -44,8 +46,9 @@ body {
     float: left;
     padding: 20px;
     width: 50%;
+    height: 400px;
     background-color: #f1f1f1;
-    height: 300px; /* only for demonstration, should be removed */
+
   }
   
 #footer {
@@ -55,4 +58,4 @@ body {
         color: white;
 }
   
-  }
+  
